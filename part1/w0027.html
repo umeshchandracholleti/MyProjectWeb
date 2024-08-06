@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            /* height: 300px; */
+            background-color: yellow;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px 20px;
+            /* column-gap: 10px;
+            row-gap: 30px; */
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+        }
+        .container > div{
+            background-color: aqua;
+            width: 100px;
+            line-height: 105px;
+            text-align: center;
+            /* margin: 10px; */
+            font-size: 20px;
+        }
+        .container > div:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="">Html</div>
+        <div class="">Css</div>
+        <div class=""> js</div>
+        <div class="">Html</div>
+        <div class="">Css</div>
+        <div class=""> js</div>
+        <div class="">Html</div>
+        <div class="">Css</div>
+        <div class=""> js</div>
+  
+    </div>
+</body>
+</html>
