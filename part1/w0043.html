@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .div1{
+         position: relative;
+         animation-name: top;
+         animation-duration: 5s;
+         width: 100px;
+         
+         background-color: blanchedalmond;
+    }
+    .div2{
+         position: relative;
+         animation-name: top;
+         animation-duration: 5s;
+         width: 100px;
+         animation-delay: 2s;
+         background-color: blanchedalmond;
+    }
+    .div3{
+         position: relative;
+         animation-name: top;
+         animation-duration: 5s;
+         width: 100px;
+         /* animation-delay: 2s; */
+        animation-iteration-count: infinite;
+         background-color: blanchedalmond;
+         animation-direction: alternate;
+    }
+   
+    @keyframes top {
+        from{
+            left: 0px;
+        }
+        to{
+            left:200px;
+        }
+    }
+
+    @keyframes color {
+        from{
+            background-color: bisque;
+        }
+        to{
+            background-color: aqua;
+        }
+    }
+    .div4:hover{
+         position: relative;
+         animation-name: color;
+         animation-duration: 5s;
+         width: 100px;
+    }
+</style>
+<body>
+  <div class="div1">
+  Home
+  </div>
+  <div class="div2">
+   About
+  </div>
+  <div class="div3">
+  Contact
+  </div>
+  <div class="div4">
+    login
+  </div>
+</body>
+</html>
