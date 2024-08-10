@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    background-color: rgb(233, 235, 238);
+}
+.maincontent{
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+}
+.leftcon{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* background-color: yellowgreen; */
+}
+.rightcont{
+    width: 50vw;
+    /* background-color: black; */
+   display: flex;
+   align-items: center;
+    justify-content: start;
+
+}
+.subleft{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.h1tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    /* background-color: aq; */
+    color: rgb(0, 51, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin: 0px;
+}
+.p-tag{
+  width: 100%;
+  /* background-color: blue; */
+}
+.subcont{
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    /* transform: translate(40px,70px); */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+align-items: end;
+    justify-content: center;
+}
+
+.cointainer{
+    height: 320px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 1px 2px 5px 0px rgba(130, 128, 128, 0.655);
+    border-radius: 5px;
+}
+.cointainer input[type=text]{
+    height: 30px;
+    background-color: transparent;
+    width: 280px;
+    border-radius: 5px;
+    /* border: none; */
+    outline: none;
+
+}
+.cointainer .btn{
+    height: 40px;
+    background-color: blue;
+    width: 280px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    /* border: none; */
+    /* outline: none; */
+
+
+}
+.cointainer .btn:hover{
+    height: 40px;
+    background-color: rgb(0, 0, 255,0.8);
+    width: 280px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    /* border: none; */
+    /* outline: none; */
+
+
+}
+input[type=text]:focus {
+    border: 1px solid #0556ed;
+  }
+  .cointainer a{
+    font-size: 15px;
+    text-decoration: none;
+    /* border-bottom: 2px solid black; */
+  }
+  .btn1{
+    color: white;
+    width: 210px;
+    border-radius: 5px ;
+    height: 40px;
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    /* border-top: 2px solid black; */
+  }
+  .p-tag1{
+    width: 100%;
+    /* background-color: #0556ed; */
+    text-align: center;
+    font-size: 12px;
+  }
